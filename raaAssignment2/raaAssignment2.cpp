@@ -117,6 +117,7 @@ void createCarOne(osg::Group* pRoadGroup)
 	apfs.push_back(raaAnimationPointFinder("tile7", 5, pRoadGroup));
 	apfs.push_back(raaAnimationPointFinder("tile6", 1, pRoadGroup));
 	apfs.push_back(raaAnimationPointFinder("tile6", 3, pRoadGroup));
+	// this is a comment
 
 
 	ap = createAnimationPath(apfs, pRoadGroup);
